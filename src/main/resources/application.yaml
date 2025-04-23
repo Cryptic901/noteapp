@@ -3,7 +3,11 @@ spring:
     name: Note-spring-api
   data:
     mongodb:
-      uri: ${MongoDB.MONGO_URL:mongodb://mongo:NrQdnPknqQXzAQNTtjIDRFxnhCHCHVRh@shortline.proxy.rlwy.net:48170}
+      uri: ${MongoDB.MONGO_URL:mongodb://mongo:NrQdnPknqQXzAQNTtjIDRFxnhCHCHVRh@mongodb.railway.internal:27017}
+      password: NrQdnPknqQXzAQNTtjIDRFxnhCHCHVRh
+      host: mongodb.railway.internal
+      port: 27017
+      username: mongo
 
 server:
   port: 8080
