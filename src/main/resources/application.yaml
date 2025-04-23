@@ -3,7 +3,7 @@ spring:
     name: Note-spring-api
   data:
     mongodb:
-      uri: mongodb://mongo:NrQdnPknqQXzAQNTtjIDRFxnhCHCHVRh@mongodb.railway.internal:27017/notesdb?authSource=admin
+      uri: mongodb://mongo:NrQdnPknqQXzAQNTtjIDRFxnhCHCHVRh@shortline.proxy.rlwy.net:48170/notesdb?authSource=admin
 
 server:
   port: 8080
