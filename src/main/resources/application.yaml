@@ -3,7 +3,7 @@ spring:
     name: Note-spring-api
   data:
     mongodb:
-      uri: mongodb://localhost:27017/notesdb
+      uri: ${{ MongoDB.MONGO_URL }}
 
 server:
   port: 8080
