@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: Note-spring-api
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/notesdb
+
+server:
+  port: 8080
