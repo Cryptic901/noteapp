@@ -4,6 +4,12 @@ spring:
   data:
     mongodb:
       uri: mongodb://mongo:NrQdnPknqQXzAQNTtjIDRFxnhCHCHVRh@shortline.proxy.rlwy.net:48170/notesdb?authSource=admin
-
+springdoc:
+  api-docs:
+    enabled: true
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  show-actuator: true
 server:
   port: 8080
